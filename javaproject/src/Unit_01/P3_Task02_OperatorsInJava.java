@@ -15,11 +15,15 @@ package Unit_01;
  * 		-Assignment operators: {=,+=,-=,/=,%=,&/,>>=,>>=}
  */
 
-public class P3_task2_operatorsinjava {
+public class P3_Task02_OperatorsInJava {
 
 	public static void main(String[] args) {
-		
-
+    op obj=new op();
+    //obj.unaryop();
+   //obj.arithmatic();
+    obj.shiftop();
+    //obj.relationalop();
+    //obj.bitwise();
 	}
 
 }

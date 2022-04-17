@@ -1,27 +1,43 @@
 package Unit_01;
 
-public class P2_Task01_KeywordsInJava {
-public static void main(String[] args)
+public class P2_Task02_ConstantsInJava 
 {
+
+	public static final double Pi=3.14;
 	
-	//variable name
-	//Syntax error on token "double", invalid VariableDeclaratorId
-	int double = 12;
-	
-	//function name
-	int new() {
-		//sysout[ctrl+space]
-		System.out.println();
+	public static void main(String[] args) 
+	{
+		System.out.println(Pi);
+		main("gjhfgsdkhfgs");
 		
-		return 0;
+		NewClass obj= new NewClass();
+		obj.add(1,2);
+		System.out.println(obj.Pi);
+		
+		
 	}
 	
+	public static void main(String args)
+	{
+		System.out.println(Pi);
+		
+	}
 	
-	
-	//class name [given below]
-	
-	//object
-	//object name can never be any keywords in java
-	ABC int = new ABC();
+	 void add(int a,int b)
+	 {
+		 System.out.println(a+b);
+		 System.out.println(Pi);
+		 
+	 }
+
 }
+
+class NewClass
+{
+	void add(int a,int b)
+	{
+		System.out.println(a+b);
+		System.out.println(P2_Task02_ConstantsInJava.Pi);	
+	}
 }
+

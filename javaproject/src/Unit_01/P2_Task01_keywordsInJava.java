@@ -1,65 +1,44 @@
 package Unit_01;
 
+public class P2_Task01_KeywordsInJava 
+{
 
-/*
- * It is called when an instance of a class is created
- * At the time of calling the constructor, memory of the object is allocated in the memory
- * IT is a special type of method which is used to initialize the object
- * Every time an object is created using the new() keyword, at least one constructor is called
- * Two types of Constructors in java
- * 	-Parameterized Constructor
- * 	-Default Constructor 
- */
-
-public class P5_Task03_ConstructorsInJava {
-
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{   
+		//variable name
+		//invalid varible name using double as variable while double is a keyword
+		int double=12;
 		
+		//function name
+		int new()
+		{
+			System.out.println();
+			return 0;
+		}
 		
-		ABC4 obj = new ABC4();
+		// class name[Given Below]
 		
-		ABC4 obj1 = new ABC4(1);
+		//object name
+		//object name can never be any keywords in java
 		
-		System.out.println(obj.a);
-		System.out.println(obj1.a);
-		
+		ABC int= new ABC();
 	}
 
+ }
+
+class int 
+{
+	void display()
+	{
+		System.out.println("Another Class");
+	}
 }
 
-class ABC4 {
-	
-	int a;
-	/*
-	 * ClassName(Constructor Parameters){
-	 * 		All the class and Instance variable can be initialized here!
-	 * }
-	 */
-	
-	ABC4(){
-		a = 10;
-	}
-	
-	ABC4(int a){
-		this.a = a;
-	
-	}
-	
-	void display() {
+class ABC
+{
+	void display()
+	{
+		System.out.println("Another class");
 		
-		int b = 10;
-		
-		System.out.println(a);
-		System.out.println(b);
-		
-	}
-	
-	int display2() {
-		
-		System.out.println(a);
-		//As a was a local variable so we can not access it outside the method
-		//System.out.println(b);
-		
-		return a;
 	}
 }

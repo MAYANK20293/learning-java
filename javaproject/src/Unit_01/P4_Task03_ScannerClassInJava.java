@@ -15,7 +15,7 @@ package Unit_01;
  */
 import java.util.Scanner;
 
-public class P4_Task03_ScannerClassinjava 
+public class P4_Task03_ScannerClassInJava 
 {
 
 public static void main(String[] args) {

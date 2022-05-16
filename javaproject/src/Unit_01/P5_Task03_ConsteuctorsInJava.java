@@ -10,7 +10,7 @@ package Unit_01;
     - Default Constructor
 */
 
-public class P5_Task03_ConstructorsInJava 
+public class P5_Task03_ConsteuctorsInJava 
 {
 	public static void main(String[] args) {
 
@@ -20,7 +20,11 @@ public class P5_Task03_ConstructorsInJava
 
 		System.out.println(obj.a);
 		System.out.println(obj1.a);
-		}
+		obj.display();
+		obj.display2();
+		obj1.display();
+		obj1.display2();
+		}    
 
 		}
 

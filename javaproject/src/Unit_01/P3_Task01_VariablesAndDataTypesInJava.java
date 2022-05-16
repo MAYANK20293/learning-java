@@ -1,10 +1,10 @@
-package Unit_01;
+    package Unit_01;
 
 /*
  * - Variable in java is a data container that saves the values during Java program execution
  *  
  *  Types of Variables:
- *   In Java, there are three types of variables:
+ *    In Java, there are three types of variables:
  *   
  *     Local Variables- declared inside the body of a method
  *     

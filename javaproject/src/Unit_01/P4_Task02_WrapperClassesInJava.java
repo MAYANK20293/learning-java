@@ -5,7 +5,7 @@ package Unit_01;
  * Why ?
  * Because we want to use predefined methods of those objects
  * - boolean data types -> Boolean obj; -> obj.toString();
- *  
+  *  
  * */
 
 public class P4_Task02_wrapperclassinjava
